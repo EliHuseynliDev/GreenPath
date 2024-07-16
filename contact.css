@@ -1,0 +1,627 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::selection {
+    background-color: #88A842;
+    color: white;
+}
+
+header {
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    font-family: "Manrope", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    background-color: #88A842;
+}
+
+header p {
+    color: white;
+    transition: color .2s ease-out;
+    cursor: pointer;
+}
+
+header i {
+    font-size: 3.36;
+    margin: 0 10px;
+}
+
+header h6 {
+    font-weight: 700;
+    color: white;
+    font-family: "Manrope", sans-serif;
+    font-size: 14px;
+}
+
+header .left {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+header .middle {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 150px;
+}
+
+header .right {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    padding: 0 30px 0 50px;
+    display: flex;
+    align-items: center;
+}
+
+nav .greenpath {
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 40px;
+}
+
+nav h5 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Manrope", sans-serif;
+    margin-right: 14px;
+    cursor: pointer;
+    padding-left: 155px;
+}
+
+nav .icons i {
+    font-size: 23px;
+    margin: 0 14px;
+    position: relative;
+    cursor: pointer;
+}
+
+nav .icons .amount {
+    position: absolute;
+    top: -3px;
+    left: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 14px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 7px 3px;
+    font-family: "Manrope", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1;
+    color: #33691e;
+    background-color: #f1f8e9;
+    margin: 0;
+}
+
+nav .icons .price {
+    font-weight: 700;
+    font-size: 14px;
+    font-family: "Manrope", sans-serif;
+    margin: 0;
+}
+
+nav i {
+    font-size: 21px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+nav span {
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 22px;
+    cursor: default;
+    border-bottom: white 1px solid;
+    transition: all .4s ease;
+}
+
+nav span {
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 22px;
+    cursor: default;
+    border-bottom: white 1px solid;
+    transition: all .4s ease;
+}
+
+nav span a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+nav span a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+
+
+
+
+.first {
+    width: 100%;
+    height: 669px;
+    padding: 118px 81px 0;
+    display: flex;
+}
+
+.first .left {
+    width: 519px;
+    height: 551px;
+}
+
+.first .left h2 {
+    font-family: "Manrope", sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.first .left h6 {
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 23px;
+    line-height: 25px;
+}
+
+.first .left p {
+    margin: 24px 0 30px;
+    font-family: "Manrope", sans-serif;
+    line-height: 23px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.first .left .option {
+    margin-top: 20px;
+}
+
+.first .left .option span {
+    font-family: "Manrope", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.first .left .option i {
+    font-size: 18px;
+    color: #88A842;
+    margin-right: 13px;
+    cursor: pointer;
+}
+
+.first .left .option h5 {
+    font-family: "Manrope", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.first .right {
+    width: 500px;
+    height: 531px;
+    margin-left: 70px;
+    padding-top: 10px;
+}
+
+.first .right h2 {
+    margin-bottom: 15px;
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+}
+
+.first .right input {
+    background-color: transparent;
+    border: #88A842 1px solid;
+    color: #606060;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: "Manrope", sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    padding: 19px 20px;
+    width: 500px;
+    height: 61px;
+    margin-bottom: 37px;
+    outline: 0;
+}
+
+.first .right textarea {
+    height: 149px;
+    width: 499px;
+    background-color: transparent;
+    border: #88A842 1px solid;
+    color: #606060;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: "Manrope", sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    padding: 19px 20px;
+    margin-bottom: 30px;
+    outline: 0;
+}
+
+.first .right button {
+    width: 117px;
+    height: 50px;
+    border-radius: 8px;
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 700;
+    transition: all .2s ease-out;
+    color: #fff;
+    background-color: #88A842;
+    cursor: pointer;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+.second {
+    width: 100%;
+    height: 260px;
+    padding: 110px 0 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.second h3 {
+    font-family: "Manrope", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+.third {
+    width: 100%;
+    height: 455px;
+    padding: 0 81px 127px;
+}
+
+.third .boxes {
+    width: auto;
+    height: auto;
+    display: flex;
+}
+
+.third .boxes .box {
+    width: 218px;
+    height: 328px;
+    margin: 0 54px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.third .boxes .box h4 {
+    margin-top: 23px;
+    font-family: "Manrope", sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.third .boxes .box p {
+    margin-top: 10px;
+    font-family: "Manrope", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+.eleventh {
+    width: 100%;
+    height: 178px;
+    padding: 47px 101px 51px 101px;
+    background-color: #33691E;
+    border-bottom: #88A842 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eleventh h3 {
+    color: white;
+    font-family: "Manrope", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-right: 56px;
+}
+
+.eleventh span {
+    color: #fdd835;
+    font-family: "Manrope", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.eleventh input {
+    width: 405px;
+    height: 50px;
+    padding: 14px 20px 13px 20px;
+    background-color: #fff;
+    border: #88A842 1px solid;
+    color: #000;
+    border-radius: 8px;
+    font-family: "Manrope", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    outline: none;
+}
+
+.eleventh button {
+    width: 117px;
+    height: 50px;
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 700;
+    transition: all .2s ease-out;
+    color: #fff;
+    background-color: #88A842;
+    cursor: pointer;
+    border: none;
+    margin-left: 12px;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    width: 100%;
+    height: 410px;
+    padding: 80px 161px 90px 101px;
+    background-color: #33691E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .left {
+    width: 240px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+footer .greenpath {
+    width: auto;
+    height: 100%;
+    cursor: pointer;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+footer .options {
+    width: 485px;
+    height: 136px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+
+footer .option {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .options h5 {
+    font-size: 20px;
+    margin: 6px 0 0 14px;
+    font-weight: 600;
+    color: white;
+    font-family: "Manrope", sans-serif;
+}
+
+footer .options i {
+    color: #fdd835;
+    font-size: 20px;
+}
+
+footer .container {
+    width: 486px;
+    gap: 30px;
+    display: flex;
+}
+
+footer .box {
+    width: 162px;
+    height: 230px;
+}
+
+footer .box h5 {
+    margin-bottom: 30px;
+    color: #fff;
+    font-weight: 600;
+    font-family: "Manrope", sans-serif;
+    font-size: 22px;
+}
+
+footer .box span {
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+footer .box .textbox {
+    width: 162px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+
+
+
+
+.final {
+    width: 100%;
+    height: 71px;
+    padding: 23px 101px;
+    background-color: #33691E;
+}
+
+.final p {
+    font-size: 12px;
+    font-family: "Manrope", sans-serif;
+    color: #FFFFFF;
+}
+
+.final a:link {
+    font-size: 12px;
+    font-family: "Manrope", sans-serif;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.final a:visited {
+    font-size: 12px;
+    font-family: "Manrope", sans-serif;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#myBtn {
+    width: 50px;
+    height: 50px;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #88A842;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: all .2s ease;
+}
+
+#myBtn:hover {
+    background-color: #33691E;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nav span:hover {
+    border-bottom: black 1.5px solid;
+}
+
+.first .left .option span:hover {
+    color: #88A842;
+}
+
+.first .right button:hover {
+    background-color: #698141;
+}

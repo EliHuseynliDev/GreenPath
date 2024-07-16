@@ -1,0 +1,1213 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Filter - GreenPath</title>
+    <link rel="stylesheet" href="shop.css">
+    <link rel="icon" type="image/x-icon"
+        href="https://cdn-icons-png.freepik.com/512/3137/3137034.png?ga=GA1.1.46450281.1714326594">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-chevron-up"></i></button>
+    
+    <header>
+
+        <div class="left">
+            Info:
+            <p>
+                +381 55 755 755</p>
+
+            <i class="fa-solid fa-circle"></i>
+
+            <p>
+                About</p>
+
+
+            <i class="fa-solid fa-circle"></i>
+
+            <p>
+                Delivery information</p>
+        </div>
+
+        <div class="middle">
+            <h6>- Free shipping for orders over $30 -</h6>
+        </div>
+
+        <div class="right">
+            <p>FAQ</p>
+
+            <i class="fa-solid fa-circle"></i>
+
+            <p>English
+                <i class="fa-solid fa-caret-down" style="font-size: 9px; margin: 0 5px;"></i>
+            </p>
+
+        </div>
+
+    </header>
+
+    <nav>
+
+        <div class="greenpath">
+            <div class="lemon"
+                style="width: 47px; height: 47px; background-color: #ECF7E1; border-radius: 50%; display: inline-flex; justify-content: end; align-items: start; margin-right: 8px;">
+                <img src="https://cdn-icons-png.freepik.com/512/3137/3137034.png?ga=GA1.1.46450281.1714326594" alt=""
+                    width="39px" height="39px">
+            </div>
+
+            <img src="https://greenpath.qodeinteractive.com/wp-content/uploads/2024/02/logo-dark-x2.png" alt=""
+                width="126px" height="48px">
+        </div>
+
+        <div class="inp">
+            <button class="categories">All Categories <i class="fa-solid fa-caret-down"
+                    style="font-size: 10px; margin-left: 10px;"></i></button>
+            <input type="text" placeholder="Search for Product...">
+            <button class="search"><i class="fa-solid fa-magnifying-glass" style="font-size: 18px;"></i></button>
+        </div>
+
+        <div class="icons">
+            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+            <i class="fa-regular fa-user"></i>
+            <i class="fa-regular fa-heart"><span class="amount">0</span></i>
+            <i class="fa-solid fa-basket-shopping"><span class="amount">0</span>
+                <span class="price">$0.00</span></i>
+        </div>
+
+    </nav>
+
+    <div class="second_header">
+
+        <button><i class="fa-solid fa-bars"></i> Shop by Categories<i class="fa-solid fa-sort-down"
+                style="margin-left: 6px; font-size: 11px;"></i></button>
+
+        <div class="left">
+            <span><a href="./index.html">Home</a></span>
+            <span>Pages</span>
+            <span style="position: relative; border-bottom: white 1px solid;">Shop<i class="fa-solid fa-star"
+                    style="position: absolute; right: -16px; top: 0; font-size: 7px; color: #fdd835;"></i></span>
+            <span>Blog</span>
+            <span style="cursor: pointer;"><a href="./contact.html">Contact</a></span>
+        </div>
+
+        <div class="right">
+            <i class="fa-solid fa-fire"></i>
+            <p>Best Deal</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container">
+
+        <section class="side">
+
+            <div class="categories">
+                <h5 data-aos="zoom-in-up">Categories</h5>
+
+                <span><input type="text">Jam And Jelly (2)</span>
+
+                <span><input type="text">Superfood (5)</span>
+
+                <span><input type="text">Vegetables (6)</span>
+
+                <span><input type="text">Premium Nuts (3)</span>
+
+                <span><input type="text">Detox Drinks (1)</span>
+
+                <span><input type="text">Granola Bars (8)</span>
+
+                <span><input type="text">Proteins (3)</span>
+
+                <span><input type="text">Fresh (5)</span>
+
+                <h4>View more</h4>
+
+            </div>
+
+            <div class="customer_rating">
+                <h5 data-aos="zoom-in-up">Customer Rating</h5>
+
+                <span data-aos="fade-up-right"><input type="text">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    (25)
+                </span>
+
+                <span data-aos="fade-up-right"><input type="text">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    (18)
+                </span>
+
+                <span data-aos="fade-up-right"><input type="text">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    (13)
+                </span>
+
+                <span data-aos="fade-up-right"><input type="text">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    (6)
+                </span>
+
+                <span data-aos="fade-up-right"><input type="text">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    (1)
+                </span>
+            </div>
+
+            <div class="weight">
+                <h5 data-aos="zoom-in-up">Weight</h5>
+
+                <button data-aos="zoom-in-down">100gr</button>
+                <button data-aos="zoom-in-down">150gr</button>
+                <button data-aos="zoom-in-down">180gr</button>
+                <button data-aos="zoom-in-down">250gr</button>
+            </div>
+
+            <div class="color">
+                <h5 data-aos="zoom-in-up">Color</h5>
+                <div class="color_container">
+                    <div class="color_options"data-aos="fade-up-right"></div>
+                    <div class="color_options" style="background-color: #EB7651;"data-aos="fade-up"></div>
+                    <div class="color_options" style="background-color: #BB93F2;"data-aos="fade-down"></div>
+                    <div class="color_options" style="background-color: #FFED9B;"data-aos="fade-up-left"></div>
+                </div>
+            </div>
+
+            <div class="brands">
+                <h5 data-aos="zoom-in-up">Brands</h5>
+
+                <span data-aos="fade-down-right"><input type="text">Jami & Yelo (2)</span>
+
+                <span data-aos="fade-down-right"><input type="text">Juice Fresh (1)</span>
+
+                <span data-aos="fade-down-right"><input type="text">Premium Nuts (1)</span>
+
+                <span data-aos="fade-down-right"><input type="text">Protein Plus (1)</span>
+
+                <span data-aos="fade-down-right"><input type="text">Your Organic (3)</span>
+
+            </div>
+
+            <div class="filter">
+                <h5 data-aos="zoom-in-up">Filter by Price</h5>
+
+                <div class="range" data-aos="zoom-in-right">
+                    <div class="range-slider">
+                        <span class="range-selected"></span>
+                    </div>
+                    <div class="range-input">
+                        <input type="range" class="min" min="0" max="1000" value="300" step="10">
+                        <input type="range" class="max" min="0" max="1000" value="700" step="10">
+                    </div>
+                    <div class="range-price">
+                        <label for="min"data-aos="zoom-in-right">Price: $</label>
+                        <input type="number" name="min" value="0"data-aos="zoom-in-right">
+                        <label for="max"data-aos="zoom-in-right">- $</label>
+                        <input type="number" name="max" value="52"data-aos="zoom-in-right">
+                        <button data-aos="zoom-in-right">Filter</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="popular">
+                <h5 data-aos="zoom-in-up">Popular Products</h5>
+
+                <div class="box" data-aos="zoom-out-right">
+                    <img src="https://greenpath.qodeinteractive.com/wp-content/uploads/2024/01/h2-img-13-84x84.png"
+                        alt="">
+
+                    <div class="textbox">
+                        <h6>Green prganic mix smoothie for everyday</h6>
+
+                        <div class="pricey" style="margin-top: 7px;">
+                            <span class="price">$</span>
+                            28
+                            <sup>00</sup>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box" data-aos="zoom-out-right">
+                    <span class="new">New</span>
+                    <img src="https://greenpath.qodeinteractive.com/wp-content/uploads/2024/01/h6-1-product-6-img-1-84x84.jpg" alt="" style="position: relative;">
+
+                    <div class="textbox">
+                        <h6>Green prganic mix smoothie for everyday</h6>
+                        
+                        <div class="stars">
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-regular fa-star" style="color: #fdd835; font-size: 12px;"></i>
+                            <span class="rating">4.00</span>
+                        </div>
+                        
+                        <div class="pricey" style="margin-top: 7px;">
+                            <span class="price">$</span>
+                            42
+                            <sup>00</sup>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box" data-aos="zoom-out-right">
+                    <img src="https://greenpath.qodeinteractive.com/wp-content/uploads/2023/10/h6-1-product-2-img-1-84x84.jpg" alt="">
+
+                    <div class="textbox">
+                        <h6>Handmade orange with passion fruit marmelade</h6>
+                        
+                        <div class="stars">
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+                            <span class="rating">5.00</span>
+                        </div>
+                        
+                        <div class="pricey" style="margin-top: 7px;">
+                            <span class="price">$</span>
+                            18
+                            <sup>00</sup>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="avocado" data-aos="fade-down">
+            <h5>Organic
+                <br>
+                Superfood</h5>
+
+            <p>Build your juicy</p>
+
+            <button>Buy Now</button>
+            </div>
+
+            <div class="fruitbag" data-aos="fade-down">
+                <img src="https://greenpath.qodeinteractive.com/wp-content/uploads/2023/10/shop-list-side-img-2.png" alt="">
+            </div>
+        </section>
+
+        <script src="./shop.js"></script>
+
+
+
+
+
+
+
+
+
+        <section class="first">
+
+            <div class="sorting">
+                <div class="left">
+                    <div class="list">
+                        <i class="fa-solid fa-grip" style="font-size: 21px; color: #33691E;"></i>
+                    </div>
+                    <div class="list2">
+                        <i class="fa-solid fa-list" style="font-size: 21px; color: #88A842;"></i>
+                    </div>
+
+                    <p>Showing 1–15 of 30 results</p>
+                </div>
+
+                <div class="right">
+                    <div class="box">
+                        <span>Default sorting</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="boxes">
+                <div class="box" data-aos="zoom-in-up">
+
+                    <div class="sale">-29%</div>
+
+                    <img src="https://greenpath.qodeinteractive.com/wp-content/uploads/2023/10/h3-1-product-1-img-1.jpg"
+                        alt="" style="object-fit: cover; cursor: pointer;">
+
+                    <div class="textbox">
+
+                        <h6>Organic Kiwi - Delicious
+                            <br> And Healthy Fruit
+                        </h6>
+
+                        <div class="stars">
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+                            <span class="rating">5.00</span>
+                        </div>
+
+                        <div class="pricey">
+                            <span class="price">$</span>
+                            20
+                            <sup>00</sup>
+                            <span class="old price" style="color: #B5B5B5; font-size: 12px; font-weight: 400;">$</span>
+                            <del style="color: #B5B5B5; font-size: 18px; font-weight: 400;">28</del>
+                            <sup style="color: #B5B5B5; font-size: 11.2px; font-weight: 400;">00</sup>
+                        </div>
+
+
+                        <button><i class="fa-solid fa-bag-shopping" style="margin-right: 4px;"></i>Add to
+                            cart</button>
+
+                        <div class="optionsbox">
+                            <div class="options"><i class="fa-regular fa-eye" style="font-size: 15px;"></i>
+                            </div>
+                            <div class="options"><i class="fa-regular fa-heart" style="font-size: 15px;"></i>
+                            </div>
+                            <div class="options"><i class="fa-solid fa-shuffle" style="font-size: 15px;"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="box" data-aos="zoom-in-up">
+
+                    <span class="new">New</span>
+
+                    <div class="sale">-10%</div>
+
+                    <img src="https://greenpath.qodeinteractive.com/wp-content/uploads/2023/10/h3-1-product-4-img-1.jpg"
+                        alt="" style="object-fit: cover; cursor: pointer;">
+
+                    <div class="textbox">
+
+                        <h6>Pomegranate exotic fruit
+                            <br>packed with juice and
+                            <br>seeds
+                        </h6>
+
+                        <div class="stars">
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+                            <span class="rating">5.00</span>
+                        </div>
+
+                        <div class="pricey">
+                            <span class="price">$</span>
+                            38
+                            <sup>00</sup>
+                            <span class="old price" style="color: #B5B5B5; font-size: 12px; font-weight: 400;">$</span>
+                            <del style="color: #B5B5B5; font-size: 18px; font-weight: 400;">42</del>
+                            <sup style="color: #B5B5B5; font-size: 11.2px; font-weight: 400;">00</sup>
+                        </div>
+
+
+                        <button><i class="fa-solid fa-bag-shopping" style="margin-right: 4px;"></i>Add to
+                            cart</button>
+
+                        <div class="optionsbox">
+                            <div class="options"><i class="fa-regular fa-eye" style="font-size: 15px;"></i>
+                            </div>
+                            <div class="options"><i class="fa-regular fa-heart" style="font-size: 15px;"></i>
+                            </div>
+                            <div class="options"><i class="fa-solid fa-shuffle" style="font-size: 15px;"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="box" data-aos="zoom-in-up">
+
+                    <div class="sale">-9%</div>
+
+                    <img src="https://greenpath.qodeinteractive.com/wp-content/uploads/2023/10/h1-shop3-prod-3-img-1.jpg"
+                        alt="" style="object-fit: cover; cursor: pointer;">
+
+                    <div class="textbox">
+
+                        <h6>Green Pesto Sos For Salad
+                            <br>From Hart Of Italy
+                        </h6>
+
+                        <div class="stars">
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+                            <span class="rating">5.00</span>
+                        </div>
+
+                        <div class="pricey">
+                            <span class="price">$</span>
+                            40
+                            <sup>00</sup>
+                            <span class="old price" style="color: #B5B5B5; font-size: 12px; font-weight: 400;">$</span>
+                            <del style="color: #B5B5B5; font-size: 18px; font-weight: 400;">44</del>
+                            <sup style="color: #B5B5B5; font-size: 11.2px; font-weight: 400;">00</sup>
+                        </div>
+
+
+                        <button><i class="fa-solid fa-bag-shopping" style="margin-right: 4px;"></i>Add to
+                            cart</button>
+
+                        <div class="optionsbox">
+                            <div class="options"><i class="fa-regular fa-eye" style="font-size: 15px;"></i>
+                            </div>
+                            <div class="options"><i class="fa-regular fa-heart" style="font-size: 15px;"></i>
+                            </div>
+                            <div class="options"><i class="fa-solid fa-shuffle" style="font-size: 15px;"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+            <div class="boxes">
+
+                <div class="box" data-aos="zoom-in-up">
+
+                    <img src="https://greenpath.qodeinteractive.com/wp-content/uploads/2023/10/h1-shop1-prod-9-img-1.jpg"
+                        alt="" style="object-fit: cover; cursor: pointer;">
+
+                    <div class="textbox">
+
+                        <h6>Premium Canned Wild
+                            <br>Forest Mushrooms
+                        </h6>
+
+                        <div class="stars">
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+                            <span class="rating">5.00</span>
+                        </div>
+
+                        <div class="pricey">
+                            <span class="price">$</span>
+                            24
+                            <sup>00</sup>
+                        </div>
+
+
+                        <button><i class="fa-solid fa-bag-shopping" style="margin-right: 4px;"></i>Add to
+                            cart</button>
+
+                        <div class="optionsbox">
+                            <div class="options"><i class="fa-regular fa-eye" style="font-size: 15px;"></i>
+                            </div>
+                            <div class="options"><i class="fa-regular fa-heart" style="font-size: 15px;"></i>
+                            </div>
+                            <div class="options"><i class="fa-solid fa-shuffle" style="font-size: 15px;"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="box" data-aos="zoom-in-up">
+
+                    <img src="https://greenpath.qodeinteractive.com/wp-content/uploads/2023/11/h1-shop1-prod-4-img1.jpg"
+                        alt="" style="object-fit: cover; cursor: pointer;">
+
+                    <div class="textbox">
+
+                        <h6>Strawberry- Sweet And
+                            <br>Healthy Summer Fruit
+                        </h6>
+
+                        <div class="stars">
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-regular fa-star" style="color: #fdd835; font-size: 12px;"></i>
+                            <span class="rating">4.00</span>
+                        </div>
+
+                        <div class="pricey">
+                            <span class="price">$</span>
+                            25
+                            <sup>00</sup>
+                        </div>
+
+
+                        <button><i class="fa-solid fa-bag-shopping" style="margin-right: 4px;"></i>Add to
+                            cart</button>
+
+                        <div class="optionsbox">
+                            <div class="options"><i class="fa-regular fa-eye" style="font-size: 15px;"></i>
+                            </div>
+                            <div class="options"><i class="fa-regular fa-heart" style="font-size: 15px;"></i>
+                            </div>
+                            <div class="options"><i class="fa-solid fa-shuffle" style="font-size: 15px;"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="box" data-aos="zoom-in-up">
+
+                    <span class="new">New</span>
+
+                    <img src="https://greenpath.qodeinteractive.com/wp-content/uploads/2023/09/h1-shop1-prod-2-img1.jpg"
+                        alt="" style="object-fit: cover; cursor: pointer;">
+
+                    <div class="textbox">
+
+                        <h6>Deluxe Roasted Salted
+                            <br>Mixed Nuts in Sea Salt
+                        </h6>
+
+                        <div class="stars">
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-regular fa-star" style="color: #fdd835; font-size: 12px;"></i>
+                            <span class="rating">4.00</span>
+                        </div>
+
+                        <div class="pricey">
+                            <span class="price">$</span>
+                            24
+                            <sup>00</sup>
+                        </div>
+
+
+                        <button><i class="fa-solid fa-bag-shopping" style="margin-right: 4px;"></i>Add to
+                            cart</button>
+
+                        <div class="optionsbox">
+                            <div class="options"><i class="fa-regular fa-eye" style="font-size: 15px;"></i>
+                            </div>
+                            <div class="options"><i class="fa-regular fa-heart" style="font-size: 15px;"></i>
+                            </div>
+                            <div class="options"><i class="fa-solid fa-shuffle" style="font-size: 15px;"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="boxes">
+
+                <div class="box" data-aos="zoom-in-up">
+
+                    <div class="sale">-9%</div>
+
+                    <img src="https://greenpath.qodeinteractive.com/wp-content/uploads/2023/11/h1-shop1-prod-5-img1.jpg"
+                        alt="" style="object-fit: cover; cursor: pointer;">
+
+                    <div class="textbox">
+
+                        <h6>Pink Salmon Fillet- Source
+                            <br>Of Protein And Good Fats
+                        </h6>
+
+                        <div class="stars">
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+                            <span class="rating">5.00</span>
+                        </div>
+
+                        <div class="pricey">
+                            <span class="price">$</span>
+                            43
+                            <sup>00</sup>
+                            <span class="old price" style="color: #B5B5B5; font-size: 12px; font-weight: 400;">$</span>
+                            <del style="color: #B5B5B5; font-size: 18px; font-weight: 400;">47</del>
+                            <sup style="color: #B5B5B5; font-size: 11.2px; font-weight: 400;">00</sup>
+                        </div>
+
+
+                        <button><i class="fa-solid fa-bag-shopping" style="margin-right: 4px;"></i>Add to
+                            cart</button>
+
+                        <div class="optionsbox">
+                            <div class="options"><i class="fa-regular fa-eye" style="font-size: 15px;"></i>
+                            </div>
+                            <div class="options"><i class="fa-regular fa-heart" style="font-size: 15px;"></i>
+                            </div>
+                            <div class="options"><i class="fa-solid fa-shuffle" style="font-size: 15px;"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="box" data-aos="zoom-in-up">
+
+                    <img src="https://greenpath.qodeinteractive.com/wp-content/uploads/2023/10/h6-1-product-2-img-1.jpg"
+                        alt="" style="object-fit: cover; cursor: pointer;">
+
+                    <div class="textbox">
+
+                        <h6>Handmade Orange With
+                            <br>Passion Fruit Marmelade
+                        </h6>
+
+                        <div class="stars">
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+                            <span class="rating">5.00</span>
+                        </div>
+
+                        <div class="pricey">
+                            <span class="price">$</span>
+                            18
+                            <sup>00</sup>
+                        </div>
+
+
+                        <button><i class="fa-solid fa-bag-shopping" style="margin-right: 4px;"></i>Add to
+                            cart</button>
+
+                        <div class="optionsbox">
+                            <div class="options"><i class="fa-regular fa-eye" style="font-size: 15px;"></i>
+                            </div>
+                            <div class="options"><i class="fa-regular fa-heart" style="font-size: 15px;"></i>
+                            </div>
+                            <div class="options"><i class="fa-solid fa-shuffle" style="font-size: 15px;"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="box" data-aos="zoom-in-up">
+
+                    <img src="https://greenpath.qodeinteractive.com/wp-content/uploads/2023/11/product-list-1-img-1-1.jpg"
+                        alt="" style="object-fit: cover; cursor: pointer;">
+
+                    <div class="textbox">
+
+                        <h6>Avocado The Most Nutrient-
+                            <br>Dense Superfood Available
+                        </h6>
+
+                        <div class="stars">
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+                            <span class="rating">5.00</span>
+                        </div>
+
+                        <div class="pricey">
+                            <span class="price">$</span>
+                            47
+                            <sup>00</sup>
+                        </div>
+
+
+                        <button><i class="fa-solid fa-bag-shopping" style="margin-right: 4px;"></i>Add to
+                            cart</button>
+
+                        <div class="optionsbox">
+                            <div class="options"><i class="fa-regular fa-eye" style="font-size: 15px;"></i>
+                            </div>
+                            <div class="options"><i class="fa-regular fa-heart" style="font-size: 15px;"></i>
+                            </div>
+                            <div class="options"><i class="fa-solid fa-shuffle" style="font-size: 15px;"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+
+            <div class="boxes">
+
+                <div class="box" data-aos="zoom-in-up">
+
+                    <img src="https://greenpath.qodeinteractive.com/wp-content/uploads/2023/10/h1-shop1-prod-7-img-1.jpg"
+                        alt="" style="object-fit: cover; cursor: pointer;">
+
+                    <div class="textbox">
+
+                        <h6>Raspberry Fruit Jam Jar
+                            <br>Handmade Created With
+                            <br>Love
+                        </h6>
+
+                        <div class="stars">
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-regular fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-regular fa-star" style="color: #fdd835; font-size: 12px;"></i>
+                            <span class="rating">3.00</span>
+                        </div>
+
+                        <div class="pricey">
+                            <span class="price">$</span>
+                            42
+                            <sup>00</sup>
+                        </div>
+
+
+                        <button><i class="fa-solid fa-bag-shopping" style="margin-right: 4px;"></i>Add to
+                            cart</button>
+
+                        <div class="optionsbox">
+                            <div class="options"><i class="fa-regular fa-eye" style="font-size: 15px;"></i>
+                            </div>
+                            <div class="options"><i class="fa-regular fa-heart" style="font-size: 15px;"></i>
+                            </div>
+                            <div class="options"><i class="fa-solid fa-shuffle" style="font-size: 15px;"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="box" data-aos="zoom-in-up">
+
+                    <img src="https://greenpath.qodeinteractive.com/wp-content/uploads/2023/10/h3-1-product-2-img-1.jpg"
+                        alt="" style="object-fit: cover; cursor: pointer;">
+
+                    <div class="textbox">
+
+                        <h6>Fresh Citrus Fruit - Orsnge -
+                            <br>Organic Produced
+                        </h6>
+
+                        <div class="stars">
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-regular fa-star" style="color: #fdd835; font-size: 12px;"></i>
+                            <span class="rating">5.00</span>
+                        </div>
+
+                        <div class="pricey">
+                            <span class="price">$</span>
+                            42
+                            <sup>00</sup>
+                        </div>
+
+
+                        <button><i class="fa-solid fa-bag-shopping" style="margin-right: 4px;"></i>Add to
+                            cart</button>
+
+                        <div class="optionsbox">
+                            <div class="options"><i class="fa-regular fa-eye" style="font-size: 15px;"></i>
+                            </div>
+                            <div class="options"><i class="fa-regular fa-heart" style="font-size: 15px;"></i>
+                            </div>
+                            <div class="options"><i class="fa-solid fa-shuffle" style="font-size: 15px;"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="box" data-aos="zoom-in-up">
+
+                    <span class="new">New</span>
+
+                    <img src="https://greenpath.qodeinteractive.com/wp-content/uploads/2023/10/h3-1-product-5-img-1.jpg"
+                        alt="" style="object-fit: cover; cursor: pointer;">
+
+                    <div class="textbox">
+
+                        <h6>Organic Bananas Full Of
+                            <br>Vitamins And Magnesiums
+                        </h6>
+
+                        <div class="stars">
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-regular fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-regular fa-star" style="color: #fdd835; font-size: 12px;"></i>
+                            <span class="rating">3.00</span>
+                        </div>
+
+                        <div class="pricey">
+                            <span class="price">$</span>
+                            14
+                            <sup>00</sup>
+                        </div>
+
+
+                        <button><i class="fa-solid fa-bag-shopping" style="margin-right: 4px;"></i>Add to
+                            cart</button>
+
+                        <div class="optionsbox">
+                            <div class="options"><i class="fa-regular fa-eye" style="font-size: 15px;"></i>
+                            </div>
+                            <div class="options"><i class="fa-regular fa-heart" style="font-size: 15px;"></i>
+                            </div>
+                            <div class="options"><i class="fa-solid fa-shuffle" style="font-size: 15px;"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="boxes">
+
+                <div class="box" data-aos="zoom-in-up">
+
+                    <img src="https://greenpath.qodeinteractive.com/wp-content/uploads/2023/10/h5-1-product-5-img-1.jpg"
+                        alt="" style="object-fit: cover; cursor: pointer;">
+
+                    <div class="textbox">
+
+                        <h6>Pistachio-Source Of Protein
+                        </h6>
+
+                        <div class="pricey" style="margin-top: 20px;">
+                            <span class="price">$</span>
+                            27
+                            <sup>00</sup>
+                        </div>
+
+
+                        <button><i class="fa-solid fa-bag-shopping" style="margin-right: 4px;"></i>Add to
+                            cart</button>
+
+                        <div class="optionsbox">
+                            <div class="options"><i class="fa-regular fa-eye" style="font-size: 15px;"></i>
+                            </div>
+                            <div class="options"><i class="fa-regular fa-heart" style="font-size: 15px;"></i>
+                            </div>
+                            <div class="options"><i class="fa-solid fa-shuffle" style="font-size: 15px;"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="box" data-aos="zoom-in-up">
+
+                    <img src="https://greenpath.qodeinteractive.com/wp-content/uploads/2023/11/h1-shop1-prod-11-img-1.jpg"
+                        alt="" style="object-fit: cover; cursor: pointer;">
+
+                    <div class="textbox">
+
+                        <h6>Beef Naturally Smoked,
+                            <br>Ready To Eat, High Protein
+                        </h6>
+
+                        <div class="stars">
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-regular fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-regular fa-star" style="color: #fdd835; font-size: 12px;"></i>
+                            <span class="rating">3.00</span>
+                        </div>
+
+                        <div class="pricey">
+                            <span class="price">$</span>
+                            44
+                            <sup>00</sup>
+                        </div>
+
+
+                        <button><i class="fa-solid fa-bag-shopping" style="margin-right: 4px;"></i>Add to
+                            cart</button>
+
+                        <div class="optionsbox">
+                            <div class="options"><i class="fa-regular fa-eye" style="font-size: 15px;"></i>
+                            </div>
+                            <div class="options"><i class="fa-regular fa-heart" style="font-size: 15px;"></i>
+                            </div>
+                            <div class="options"><i class="fa-solid fa-shuffle" style="font-size: 15px;"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="box" data-aos="zoom-in-up">
+
+                    <div class="sale">-21%</div>
+
+                    <img src="https://greenpath.qodeinteractive.com/wp-content/uploads/2024/01/h6-1-product-3-img-1.jpg"
+                        alt="" style="object-fit: cover; cursor: pointer;">
+
+                    <div class="textbox">
+
+                        <h6>Golden Curcuma Flavored
+                            <br>Organic Humus
+                        </h6>
+
+                        <div class="stars">
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-solid fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-regular fa-star" style="color: #fdd835; font-size: 12px;"></i>
+
+                            <i class="fa-regular fa-star" style="color: #fdd835; font-size: 12px;"></i>
+                            <span class="rating">3.00</span>
+                        </div>
+
+                        <div class="pricey">
+                            <span class="price">$</span>
+                            26
+                            <sup>00</sup>
+                            <span class="old price" style="color: #B5B5B5; font-size: 12px; font-weight: 400;">$</span>
+                            <del style="color: #B5B5B5; font-size: 18px; font-weight: 400;">33</del>
+                            <sup style="color: #B5B5B5; font-size: 11.2px; font-weight: 400;">00</sup>
+                        </div>
+
+
+                        <button><i class="fa-solid fa-bag-shopping" style="margin-right: 4px;"></i>Add to
+                            cart</button>
+
+                        <div class="optionsbox">
+                            <div class="options"><i class="fa-regular fa-eye" style="font-size: 15px;"></i>
+                            </div>
+                            <div class="options"><i class="fa-regular fa-heart" style="font-size: 15px;"></i>
+                            </div>
+                            <div class="options"><i class="fa-solid fa-shuffle" style="font-size: 15px;"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+            <script>
+                AOS.init();
+            </script>
+
+        </section>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="left">
+            <div class="greenpath" data-aos="zoom-out">
+                <div class="lemon"
+                    style="width: 69px; height: 69px; background-color: #88A842; border-radius: 50%; display: inline-flex; justify-content: center; align-items: center;">
+                    <img src="https://cdn-icons-png.freepik.com/512/3137/3137034.png?ga=GA1.1.46450281.1714326594"
+                        alt="" width="130px" height="55px" style="margin-left: 8px; margin-bottom: 2px;">
+                </div>
+
+                <img src="https://greenpath.qodeinteractive.com/wp-content/uploads/2024/02/greenpath-logo-footer.png"
+                    alt="" width="246px" height="68px" style="margin-left: -70px;">
+            </div>
+
+            <div class="options">
+
+                <div class="option" data-aos="zoom-in-right">
+                    <i class="fa-solid fa-phone-flip"></i>
+                    <h5>+381 55 755 755</h5>
+                </div>
+
+                <div class="option" data-aos="zoom-in-right">
+                    <i class="fa-regular fa-envelope"></i>
+                    <h5>greenpath@example.com</h5>
+                </div>
+
+                <div class="option" data-aos="zoom-in-right">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h5>14 Main Road, New York 1001</h5>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container">
+
+            <div class="box">
+                <h5 data-aos="zoom-in-up">Menu</h5>
+                <div class="textbox">
+                    <span data-aos="zoom-out">About us</span>
+                    <span data-aos="zoom-out">Landing</span>
+                    <span data-aos="zoom-out">Shop</span>
+                    <span data-aos="zoom-out">Contact</span>
+                    <span data-aos="zoom-out">Blog</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <h5 data-aos="zoom-in-up">Categories</h5>
+                <div class="textbox">
+                    <span data-aos="zoom-out">Vegetables</span>
+                    <span data-aos="zoom-out">Fruits</span>
+                    <span data-aos="zoom-out">Organic</span>
+                    <span data-aos="zoom-out">Detox</span>
+                    <span data-aos="zoom-out">Protein Bars</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <h5 data-aos="zoom-in-up">My Account</h5>
+                <div class="textbox" style="height: 140px;">
+                    <span data-aos="zoom-out">Gift Vouchers</span>
+                    <span data-aos="zoom-out">Wishlist</span>
+                    <span data-aos="zoom-out">Order Tracking</span>
+                    <span data-aos="zoom-out">Shopping Cart</span>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    
+<div class="final">
+    <p>© 2024 <i class="fa-brands fa-github" style="font-size: 15px;"></i> <a target="_blank" href="https://github.com/Ahu9898">Ahu9898</a>, All Rights Reserved</p>
+</div>
+
+</body>
+
+</html>
