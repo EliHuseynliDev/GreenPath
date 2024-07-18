@@ -176,6 +176,7 @@ nav span a:visited {
     height: 669px;
     padding: 118px 81px 0;
     display: flex;
+    overflow: hidden;
 }
 
 .first .left {
